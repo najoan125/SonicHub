@@ -1,0 +1,11 @@
+<!-- author: Kaidan Gustave -->
+<configuration>
+
+    <appender name="Simple" class="com.hyfata.sonichub.terminal.TerminalLogAppender">
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="Simple"/>
+    </root>
+
+</configuration>
